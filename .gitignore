@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Large datasets & raw data (exceeds GitHub 100MB limit)
+6ab10eb3b23ba_student_resource/
+student_resource/
+*.tsv
+*.csv.gz
+*.parquet
+*.feather
+data/processed/*
+data/raw/*
+output/*
+submissions/*
+models/*.lgb
+models/*.pkl
+models/*.bin
+*.pth
+*.pt
